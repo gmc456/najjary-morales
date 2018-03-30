@@ -1,0 +1,50 @@
+.wrapper {
+  width: 80%;
+  margin: auto;
+  margin-top: 128px;
+}
+
+.miembro {
+  width: 512px;
+  margin: auto;
+  text-align: justify;
+}
+
+.img-miembro {
+  width: 100%;
+  text-align: center;
+}
+
+img {
+  width: 70%;
+  border-radius: 50%;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+img:hover {
+  width: 80%;
+}
+
+h6 {
+  margin-top: 64px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.github-link {
+  text-align: center;
+}
+
+.github-link a {
+  text-decoration: none;
+  color: black;
+  font-size: 64px;
+  transition: all 0.2s;
+  -webkit-transition: all 0.3s;
+}
+
+.github-link a:hover {
+  color: white;
+}

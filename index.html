@@ -34,28 +34,28 @@
     <nav id="sidebar-wrapper">
       <ul class="sidebar-nav">
         <li class="sidebar-brand">
-          <a class="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+          <a class="js-scroll-trigger" href="#page-top">Najjary-Morales</a>
         </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#page-top">Home</a>
+          <a class="js-scroll-trigger" href="#page-top">Inicio</a>
         </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#about">About</a>
+          <a class="js-scroll-trigger" href="#about">Sobre nosotros</a>
         </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#services">Services</a>
+          <a class="js-scroll-trigger" href="#miembros">Miembros</a>
         </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
+          <a class="js-scroll-trigger" href="#enlaces">Enlaces de interés</a>
         </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#contact">Contact</a>
+          <a class="js-scroll-trigger" href="#ual">Universidad de Almería</a>
         </li>
       </ul>
     </nav>
 
     <!-- Header -->
-    <header class="masthead d-flex">
+    <header class="masthead d-flex" id="home">
       <div class="container text-center my-auto">
         <h1 class="mb-1">Najjary-Morales</h1>
         <h3 class="mb-5">
@@ -75,41 +75,55 @@
             <p class="lead mb-5">
               Página con la información básica del equipo con enlaces a las páginas individuales de cada miembro, y links a los recursos usados en la asignatura.
             </p>
-            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">Miembros</a>
+            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#miembros">Miembros</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Services -->
-    <section class="content-section bg-primary text-white text-center" id="services">
+    <!-- Miembros -->
+    <section class="content-section bg-primary text-white text-center" id="miembros">
       <div class="container">
         <div class="content-section-heading">
           <h3 class="text-secondary mb-0">Enlaces</h3>
-          <h2 class="mb-5">Páginas de los miembros</h2>
+          <h2 class="mb-5">Miembros</h2>
         </div>
         <div class="row">
 
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+          <div class="col-lg-6 col-md-6 mb-5 mb-lg-0" >
             <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-pencil"></i>
+              <a href="./miembros/salim.html" style="display:block;">
+                <i class="icon-user"></i>
+              </a>
             </span>
             <h4>
-              <strong>Salim</strong>
+              <a href="./miembros/salim.html">
+                <strong>Salim</strong>
+              </a>
             </h4>
             <p class="text-faded mb-0">
-              <i class="fa fa-github"> @lydzje</i>
+              <a class="github-link" href="https://github.com/lydzje" target="_blank">
+                <i class="fa fa-github"> </i>
+                <span>lydzje</span>
+              </a>
             </p>
           </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+          <div class="col-lg-6 col-md-6 mb-5 mb-md-0" >
             <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-like"></i>
+              <a href="./miembros/gabi.html" style="display:block;">
+                <i class="icon-user"></i>
+              </a>
             </span>
             <h4>
-              <strong>Gabi</strong>
+              <a href="./miembros/gabi.html">
+                <strong>Gabi</strong>
+              </a>
             </h4>
             <p class="text-faded mb-0">
-              <i class="fa fa-github"> @gmc456</i>
+              <a class="github-link" href="https://github.com/gmc456" target="_blank">
+                <i class="fa fa-github"> </i>
+                <span>gmc456</span>
+              </a>
             </p>
           </div>
 
@@ -118,7 +132,7 @@
     </section>
 
     <!-- Callout -->
-    <section class="callout">
+    <section class="callout" id="hmis18">
       <div class="container text-center">
         <h2 class="mx-auto mb-5">
           Organización de HMIS18 en GitHub
@@ -127,7 +141,7 @@
     </section>
 
     <!-- Portfolio -->
-    <section class="content-section" id="portfolio">
+    <section class="content-section" id="enlaces">
       <div class="container">
         <div class="content-section-heading text-center">
           <h2 class="mb-5">Enlaces de interés</h2>
@@ -182,7 +196,7 @@
     </section>
 
     <!-- Call to Action -->
-    <section class="content-section bg-primary text-white">
+    <section class="content-section bg-primary text-white" id="ual">
       <div class="container text-center">
         <h2 class="mb-4">Proyecto de estudiantes de la Universidad de Almería</h2>
         <a href="https://www.ual.es" target="_blank" class="btn btn-xl btn-light mr-4">¡Visita la UAL!</a>
